@@ -8,7 +8,7 @@ module fp8_to_int20(
     wire        sign;
     wire [3:0]  exp;
     wire [2:0]  mantissa;
-    wire [3:0]  frac; // 带隐含位
+    wire [3:0]  frac; 
     wire signed [4:0]  exp_nobias;
     wire        left_shift;
     wire [9:0]  frac_addition_6b0;
